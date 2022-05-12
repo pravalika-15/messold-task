@@ -1,0 +1,86 @@
+.card{
+    border: none;
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+}
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.card-group {
+    padding-left: 10rem;
+    padding-right: 5rem;
+}
+.card-group p {
+    font-size: x-small;
+}
+#hello {
+    color: gray;
+}
+#brand {
+    color: #ebcc34;
+}
+#brand h1 {
+    font-family: 'Dancing Script', cursive;
+}
+#brand h2 {
+    font-family: 'Libre Baskerville', serif;
+
+}
+#brand p {
+    font-family: 'Spectral', serif;
+}
+.incense {
+    padding-left: 10rem;
+    padding-right: 5rem;
+
+}
+
+.image {
+    padding-left: 10rem;
+    padding-right: 5rem;
+
+}
+
+#cats {
+    padding-left: 10rem;
+    padding-right: 5rem;
+}
+#cats img {
+    border-radius: 50%;
+}
+#footer {
+    background-color: #ffb9be;
+   
+}
+#footer .container{
+    border-bottom: 1px solid rgba(255, 255, 255, .49);
+}
+#footer p {
+    font-size: x-small;
+}
+
+#footer #col {
+    border-right: 1px solid rgba(255, 255, 255, .49);
+}
+
+#one {
+    background-color: #d3134f;
+}
+@media (max-width:992px) {
+    .card-group {
+        padding-left: 15rem;
+        padding-right: 5rem;
+    }
+}
+@media (max-width:750px) {
+    .card-group {
+        padding-left: 15rem;
+        padding-right: 3rem;
+    }
+}
+
